@@ -1,5 +1,7 @@
 # Fortify views for Bootstrap 4
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/028aad346977092c76ae/maintainability)](https://codeclimate.com/github/kawax/fortify-bootstrap4/maintainability)
+
 Almost same as `laravel/ui` views.
 
 ## Available views
