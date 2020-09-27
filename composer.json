@@ -1,0 +1,33 @@
+{
+    "name": "revolution/fortify-bootstrap4",
+    "description": "Laravel Fortify views for Bootstrap4",
+    "keywords": [
+        "laravel",
+        "fortify",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3||^8.0",
+        "illuminate/support": "^8.0",
+        "laravel/fortify": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revolution\\Fortify\\Bootstrap4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Revolution\\Fortify\\Bootstrap4\\Bootstrap4ServiceProvider"
+            ]
+        }
+    }
+}
